@@ -54,5 +54,9 @@ fprintf('%f dB\n\n', 20*log10(rms_error));
 balloon_plot(dataset.coefficients, dataset.order, dataset.fs, sph_definition);
 
 % store a png of the balloon plots
-saveas(gcf, [dataset_file_name(1:end-3) 'png']);
+%saveas(gcf, [dataset_file_name(1:end-3) 'png']);
+
+% plot a few example spectra
+plot_magnitude_spectra(dataset.coefficients, dataset.order, dataset.fs, sph_definition);
+
 
