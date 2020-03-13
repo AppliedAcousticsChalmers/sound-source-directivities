@@ -20,6 +20,6 @@ We will extend and update the data continuously.
 
 Please cite this repository as follows:
 
-> J. Ahrens (2020). Database of Spherical Harmonic Models of Sound Source Directivities [Data set]. DOI: [10.5281/zenodo.3707708](https://doi.org/10.5281/ZENODO.3707708)
+> J. Ahrens (2020). Database of Spherical Harmonic Representations of Sound Source Directivities [Data set]. DOI: [10.5281/zenodo.3707708](https://doi.org/10.5281/ZENODO.3707708)
 
 As of now, all spherical harmonic representations are based on previously published data. Please do not forget to cite the original repositories when using the data. References to the original sources are provided with each dataset. 
