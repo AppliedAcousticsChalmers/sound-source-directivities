@@ -35,7 +35,7 @@ alpha_m = reshape(azimuth,    resolution+1, []);
 beta_m  = reshape(colatitude, resolution+1, []);
 
 %  --------------------- finally, plot data -------------------------------
-figure;
+figure('Position', [100 100 500 500]);
 set(gcf, 'Color', [1 1 1]);
 
 subplot(2, 2, 1);
@@ -60,7 +60,7 @@ end
 
 function plot_it(data_to_plot, alpha_m, beta_m, f)
 
-view_angle = [135 20];
+view_angle = [40 20];
 
 color1 = [0.9769    0.9839    0.0805];
 color2 = [0.2440    0.4358    0.9988];
@@ -101,8 +101,8 @@ lighting phong
 shading interp
 
 light('Position', [1 0 0], 'Color', color1);
-light('Position', [0 1 0], 'Color', color2);
+light('Position', [0 -1 0], 'Color', color2);
 light('Position', [0 0 1], 'Color', color3);
-set(gca, 'Projection', 'Perspective', 'FontSize', 7);
+set(gca, 'Projection', 'Perspective', 'FontSize', 10);
 
 end

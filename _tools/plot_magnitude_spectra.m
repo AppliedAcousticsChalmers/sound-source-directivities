@@ -24,7 +24,7 @@ end
 D = D(:, ind(1) : ind(1)+4);
 
 % plot selected directions
-figure;
+figure('Position', [100 100 500 200]);
 set(gcf, 'Color', [1 1 1]);
 semilogx(f, 20*log10(abs(D)), 'Linewidth', 2);
 xlim([30 fs/2]);

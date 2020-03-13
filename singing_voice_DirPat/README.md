@@ -18,37 +18,52 @@ and
 
 
 
-Example balloon plots: 
+Example plots: 
 
 `irs_DirPat_a_closed_sweep_N9_non-reg.mat`
 
 ![irs_DirPat_a_closed_sweep_N9_non-reg](irs_DirPat_a_closed_sweep_N9_non-reg.png "irs_DirPat_a_closed_sweep_N9_non-reg")
 
+![irs_DirPat_a_closed_sweep_N9_non-reg_spec](irs_DirPat_a_closed_sweep_N9_non-reg_spec.png "irs_DirPat_a_closed_sweep_N9_non-reg_spec")
+
 `irs_DirPat_a_closed_sweep_N9_reg.mat` 
 
 ![irs_DirPat_a_closed_sweep_N9_reg](irs_DirPat_a_closed_sweep_N9_reg.png "irs_DirPat_a_closed_sweep_N9_reg")
+
+![irs_DirPat_a_closed_sweep_N9_reg_spec](irs_DirPat_a_closed_sweep_N9_reg_spec.png "irs_DirPat_a_closed_sweep_N9_reg_spec")
 
 `irs_DirPat_a_long_sweep_N9_non-reg.mat`
 
 ![irs_DirPat_a_long_sweep_N9_non-reg](irs_DirPat_a_long_sweep_N9_non-reg.png "irs_DirPat_a_long_sweep_N9_non-reg")
 
+![irs_DirPat_a_long_sweep_N9_non-reg_spec](irs_DirPat_a_long_sweep_N9_non-reg_spec.png "irs_DirPat_a_long_sweep_N9_non-reg_spec")
+
 `irs_DirPat_a_long_sweep_N9_reg.mat` 
 
 ![irs_DirPat_a_long_sweep_N9_reg](irs_DirPat_a_long_sweep_N9_reg.png "irs_DirPat_a_long_sweep_N9_reg")
+
+![irs_DirPat_a_long_sweep_N9_reg_spec](irs_DirPat_a_long_sweep_N9_reg_spec.png "irs_DirPat_a_long_sweep_N9_reg_spec")
 
 `irs_DirPat_a_open_sweep_N9_non-reg.mat`
 
 ![irs_DirPat_a_open_sweep_N9_non-reg](irs_DirPat_a_open_sweep_N9_non-reg.png "irs_DirPat_a_open_sweep_N9_non-reg")
 
+![irs_DirPat_a_open_sweep_N9_non-reg_spec](irs_DirPat_a_open_sweep_N9_non-reg_spec.png "irs_DirPat_a_open_sweep_N9_non-reg_spec")
+
 `irs_DirPat_a_open_sweep_N9_reg.mat`
 
 ![irs_DirPat_a_open_sweep_N9_reg](irs_DirPat_a_open_sweep_N9_reg.png "irs_DirPat_a_open_sweep_N9_reg")
+
+![irs_DirPat_a_open_sweep_N9_reg_spec](irs_DirPat_a_open_sweep_N9_reg_spec.png "irs_DirPat_a_open_sweep_N9_reg_spec")
 
 `irs_DirPat_a_wide_sweep_N9_non-reg.mat`
 
 ![irs_DirPat_a_wide_sweep_N9_non-reg](irs_DirPat_a_wide_sweep_N9_non-reg.png "irs_DirPat_a_wide_sweep_N9_non-reg")
 
+![irs_DirPat_a_wide_sweep_N9_non-reg_spec](irs_DirPat_a_wide_sweep_N9_non-reg_spec.png "irs_DirPat_a_wide_sweep_N9_non-reg_spec")
+
 `irs_DirPat_a_wide_sweep_N9_reg.mat`
 
 ![irs_DirPat_a_wide_sweep_N9_reg](irs_DirPat_a_wide_sweep_N9_reg.png "irs_DirPat_a_wide_sweep_N9_reg")
 
+![irs_DirPat_a_wide_sweep_N9_reg_spec](irs_DirPat_a_wide_sweep_N9_reg_spec.png "irs_DirPat_a_wide_sweep_N9_reg_spec")

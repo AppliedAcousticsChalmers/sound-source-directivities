@@ -8,11 +8,13 @@ and particularly in
 
 
 
-Example balloon plots: 
+Example plots: 
 
 `irs_DirPat_loudspeaker_cube_1_N6.mat`
 
 ![irs_DirPat_loudspeaker_cube_1_N6](irs_DirPat_loudspeaker_cube_1_N6.png "irs_DirPat_loudspeaker_cube_1_N6")
+
+![irs_DirPat_loudspeaker_cube_spec](irs_DirPat_loudspeaker_cube_spec.png "irs_DirPat_loudspeaker_cube_spec")
 
 `irs_DirPat_loudspeaker_cube_2_N6.mat`
 
