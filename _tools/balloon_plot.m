@@ -1,8 +1,13 @@
-function [] = balloon_plot(coefficients, order, fs, sph_definition)
-% Creates a ballon plot from spherical harmonics coefficients
+function [] = balloon_plot(coefficients, order, fs, sph_definition, f_to_plot)
+% Creates a ballon plot from spherical harmonic coefficients
+%  f_to_plot: vector frequencies to plot in Hz (default: [500 1000 2000
+%                                                                  4000])
 
-% plot 4 different frequencies
-f_to_plot    = [500 1000 2000 4000]; % in Hz
+if (nargin < 5)
+    % plot 4 different frequencies
+    f_to_plot    = [500 1000 2000 4000]; % in Hz
+end
+
 f_to_plot    = f_to_plot(f_to_plot < fs/2); % sort out
 bins_to_plot = round(f_to_plot/(fs/2) * size(coefficients, 1));
 
