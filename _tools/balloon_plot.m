@@ -18,7 +18,7 @@ f_to_plot = bins_to_plot/size(coefficients, 1) * fs/2;
 coefficients = coefficients(bins_to_plot, :);
 
 % set up a spatial grid 
-resolution        = 2*order + 2;
+resolution        = 4*order; 
 alpha_v           = linspace(0, 2*pi, 2*resolution);  % azimuth
 beta_v            = linspace(0,   pi,   resolution+1);  % colatitude
 [alpha_m, beta_m] = meshgrid(alpha_v, beta_v);

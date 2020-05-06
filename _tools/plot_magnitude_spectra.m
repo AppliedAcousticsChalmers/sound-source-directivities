@@ -1,5 +1,6 @@
 function [] = plot_magnitude_spectra(coefficients, order, fs, sph_definition)
-% Plots the magnitude spectra for a few directions in the horizontal plane
+% Plots the magnitude spectra for a few directions around the main lobe
+% in the horizontal plane
 
 % frequency vector
 f = linspace(5*eps, fs, size(coefficients, 1)).';
@@ -20,7 +21,7 @@ end
 % find main lobe
 [~, ind] = max(rms(D(:, 1:end/2), 1));
 
-% plot only the main lobe a 5 adjaent directions
+% plot only the main lobe and 4 adjacent directions
 D = D(:, ind(1) : ind(1)+4);
 
 % plot selected directions

@@ -37,7 +37,7 @@ dft_definition = 'matlab'; % see file _tools/dft.m for the options
 %dataset_file_name = 'singing_voice_DirPat/irs_DirPat_a_wide_sweep_N9_non-reg.mat';
 %dataset_file_name = 'singing_voice_DirPat/irs_DirPat_a_wide_sweep_N9_reg.mat';
 
-dataset_file_name = 'oboe_TUB_RWTH/irs_oboe_c5_N4.mat';
+dataset_file_name = 'oboe_TUB_RWTH/irs_Oboe_modern_c5_N4.mat';
 
 % -------------------------------------------------------------------------
 
