@@ -1,4 +1,4 @@
-The data are the measurements of the 4 loudspeaker drivers of the IEM Loudspeaker Cube in the [DirPat database](https://opendata.iem.at/projects/dirpat/). All directivity representations are far-field representations based on third-octave smoothed magnitude data like in the Common Loudspeaker Format. The details are described in 
+The data are the measurements of the 4 loudspeaker drivers of the IEM Loudspeaker Cube in the [DirPat database](https://opendata.iem.at/projects/dirpat/). All directivity representations are based on the third-octave smoothed finite-distance signature like in the Common Loudspeaker Format. The details are described in 
 
 > J. Ahrens and S. Bilbao, “Interpolation and Range Extrapolation of Sound Source Directivity Based on a Spherical Wave Propagation Model,” in Proc. of IEEE ICASSP, Barcelona, Spain, May 2020
 
