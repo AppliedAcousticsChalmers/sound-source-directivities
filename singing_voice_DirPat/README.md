@@ -8,7 +8,7 @@ The data are the singing voice measurements from the [DirPat database](https://o
 
 * `IR_a_wide_sweep.mat`.
 
-The calibration data in file `cal64.mat` were applied to all datasets. All directivity representations are far-field representations referenced to the direction straight ahead and computed as described in 
+The calibration data in file `cal64.mat` were applied to all datasets. All directivity representations are referenced to the direction straight ahead and computed as described in 
 
 > J. Ahrens and S. Bilbao, “Interpolation and Range Extrapolation of Sound Source Directivity Based on a Spherical Wave Propagation Model,” in Proc. of IEEE ICASSP, Barcelona, Spain, May 2020
 
