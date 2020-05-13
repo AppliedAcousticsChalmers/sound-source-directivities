@@ -42,23 +42,10 @@ beta_m  = reshape(colatitude, resolution+1, []);
 %  --------------------- finally, plot data -------------------------------
 figure('Position', [100 100 500 500]);
 set(gcf, 'Color', [1 1 1]);
-
-subplot(2, 2, 1);
-plot_it(abs(reshape(D(1, :), resolution+1, [])),  alpha_m, beta_m, f_to_plot(1));
-
-if length(f_to_plot) > 1
-    subplot(2, 2, 2);
-    plot_it(abs(reshape(D(2, :), resolution+1, [])),  alpha_m, beta_m, f_to_plot(2));
-end
-
-if length(f_to_plot) > 2
-    subplot(2, 2, 3);
-    plot_it(abs(reshape(D(3, :), resolution+1, [])),  alpha_m, beta_m, f_to_plot(3));
-end
-
-if length(f_to_plot) > 3
-    subplot(2, 2, 4);
-    plot_it(abs(reshape(D(4, :), resolution+1, [])),  alpha_m, beta_m, f_to_plot(4));
+    
+for n = 1 : length(f_to_plot)    
+    subplot(ceil(sqrt(length(f_to_plot))), ceil(sqrt(length(f_to_plot))), n);
+    plot_it(abs(reshape(D(n, :), resolution+1, [])),  alpha_m, beta_m, f_to_plot(n));
 end
 
 end
@@ -84,9 +71,9 @@ plot_max = max(abs([Xm(:); Ym(:); Zm(:)]));
 
 % plot coordinate axes
 hold on;
-line([-1 1] * plot_max * .75, [.0 .0], [ 0 0], 'Marker', '.', 'LineStyle', '-', 'Color', [.5 .5 .5], 'LineWidth', 1 );
-line([ 0 0], [-1  1] * plot_max * .75, [ 0 0], 'Marker', '.', 'LineStyle', '-', 'Color', [.5 .5 .5], 'LineWidth', 1 );
-line([ 0 0], [ 0  0], [-1 1] * plot_max * .75, 'Marker', '.', 'LineStyle', '-', 'Color', [.5 .5 .5], 'LineWidth', 1 );
+line([-1 1] * plot_max * .9, [.0 .0], [ 0 0], 'Marker', '.', 'LineStyle', '-', 'Color', [.5 .5 .5], 'LineWidth', 1 );
+line([ 0 0], [-1  1] * plot_max * .9, [ 0 0], 'Marker', '.', 'LineStyle', '-', 'Color', [.5 .5 .5], 'LineWidth', 1 );
+line([ 0 0], [ 0  0], [-1 1] * plot_max * .9, 'Marker', '.', 'LineStyle', '-', 'Color', [.5 .5 .5], 'LineWidth', 1 );
 hold off;
 
 title(sprintf('f = %d Hz', round(f)));

@@ -1,4 +1,4 @@
-function [coefficients] = least_squares_sh_fit(N, data, azimuth, colatitude, sphharm_type, reg_parameter)
+function [coefficients] = least_squares_sh_fit(N, data, azimuth, colatitude, sphharm_type, reg_type, reg_parameter)
 % Performs an Nth-order least squares fit of spherical harmonics on data 
 % that is available in the directions (azimuth, colatitude) for each 
 % frequency bin separately using the pseudo inverse
@@ -6,6 +6,8 @@ function [coefficients] = least_squares_sh_fit(N, data, azimuth, colatitude, sph
 %   data: frequency goes downwards, position to the right
 %   azimuth, colatitude: row vectors in radians
 %   sphharm_type: see file sphharm.m for the options
+%   reg_type (optional): '' (default), 'constant' or 'quadratic'
+%                        weighting of reg_parameter w.r.t. the order l
 %   reg_parameter (optional): regularization parameters according to 
 %                             Eq. (XX) in XXX; defaults to 0
 %
@@ -15,6 +17,7 @@ function [coefficients] = least_squares_sh_fit(N, data, azimuth, colatitude, sph
 % Author: Jens Ahrens, March 2020
 
 if nargin < 6
+    reg_type = '';
     reg_parameter = 0;
 end
 
@@ -40,11 +43,23 @@ for n = 0 : N
     end
 end
 
-% ------------- perform the ls fit ---------------
+% ---------- perform the ls fit with Tikhonov regularization --------------
 fprintf('Performing LS fit... ');
 
-coefficients = inv(Y_nm' * Y_nm + reg_parameter * diag(1 + ns .* (ns + 1))) * Y_nm' * data;
+if isempty(reg_type)
+    coefficients = pinv(Y_nm) * data;
 
+elseif strcmp(reg_type, 'constant')
+    coefficients = inv(Y_nm' * Y_nm + reg_parameter * eye((order+1)^2)) * Y_nm' * data;
+
+elseif strcmp(reg_type, 'quadratic')
+    coefficients = inv(Y_nm' * Y_nm + reg_parameter * diag(1 + ns .* (ns + 1))) * Y_nm' * data;
+
+else
+    error('Unknown regularization method.');
+
+end
+    
 fprintf('done.\n');
 
 coefficients = coefficients.';

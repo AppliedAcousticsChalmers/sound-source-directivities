@@ -9,9 +9,9 @@
 % 
 % Instructions:
 %
-% - Choose the spherical harmonics definition (line 16).
-% - Choose the DFT definition (line 17).
-% - Choose the dataset (line 19).
+% - Choose the spherical harmonics definition (line 20).
+% - Choose the DFT definition (line 21).
+% - Choose the dataset (lines 22-).
 
 clear;
 
@@ -37,7 +37,10 @@ dft_definition = 'matlab'; % see file _tools/dft.m for the options
 %dataset_file_name = 'singing_voice_DirPat/irs_DirPat_a_wide_sweep_N9_non-reg.mat';
 %dataset_file_name = 'singing_voice_DirPat/irs_DirPat_a_wide_sweep_N9_reg.mat';
 
-dataset_file_name = 'Oboe_modern_TUB_RWTH/irs_Oboe_modern_c5_N4.mat';
+%dataset_file_name = 'Oboe_modern_TUB_RWTH/Oboe_modern_et_ff_c5_N4.mat';
+%dataset_file_name = 'Acoustic_guitar_modern_TUB_RWTH/Acoustic_guitar_modern_et_ff_a3_N4.mat';
+%dataset_file_name = 'Bassoon_modern_TUB_RWTH/Bassoon_modern_et_ff_a4_N4.mat';
+dataset_file_name = 'Clarinet_modern_TUB_RWTH/Clarinet_modern_et_ff_a4_N4.mat';
 
 % -------------------------------------------------------------------------
 
@@ -56,7 +59,8 @@ fprintf('\n The RMS error between the SH decomposition and the measurement data 
 fprintf('%f dB\n\n', 20*log10(rms_error));
 
 % plot the directivity
-balloon_plot(dataset.coefficients, dataset.order, dataset.fs, sph_definition);
+f_to_plot = [500 1000 2000 4000];
+balloon_plot(dataset.coefficients, dataset.order, dataset.fs, sph_definition, f_to_plot);
 
 % store a png of the balloon plots
 %saveas(gcf, [dataset_file_name(1:end-3) 'png']);
