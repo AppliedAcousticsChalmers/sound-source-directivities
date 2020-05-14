@@ -1,6 +1,6 @@
 The data are the measurements of the 4 loudspeaker drivers of the IEM Loudspeaker Cube in the [DirPat database](https://opendata.iem.at/projects/dirpat/) presented in
 
-> N. Meyer-Kahlen, F. Zotter, K. Pollack, “Design and  Measurement of a First-Order, Horizontally Beam-Controlling Loudspeaker  Cube,” in Proc. of 144th AES, Milano, e-Brief 447, 2018
+> N. Meyer-Kahlen, F. Zotter, K. Pollack, “Design and Measurement of a First-Order, Horizontally Beam-Controlling Loudspeaker Cube,” in Proc. of 144th Conv. of the AES, e-Brief 447, 2018
 
 We provide the original data along with our representation for convenience. Our representations are based on the finite-distance signature. We used the data in 
 
