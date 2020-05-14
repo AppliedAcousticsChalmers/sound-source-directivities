@@ -4,6 +4,10 @@ The data are taken from the measurements of 41 musical instruments in the [datab
 
 We use the same file name tags like the original database. The instrument as well as the steadily played note and the dynamic based on which the directivity was computed can be deduced from the file names. "et" stands for "Einzelton", which is the German term for "single note". "ff" stands for fortissimo (very loud) and "pp" for pianissimo (very quiet).
 
+The directivity at frequencies below the fundamental oscillation of the played note is identical the directivity at the fundamental oscillation. Similarly, directivity at frequencies above 10 kHz is identical the directivity at the highest partial oscillation that we found below 10 kHz.
+
+
+
 Example plots:
 
 `Clarinet_modern_et_ff_a4_N4.mat`
