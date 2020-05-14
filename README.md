@@ -10,7 +10,7 @@ We do not provide spherical harmonic coefficients directly because of the multit
 
 All data are based on the finite-distance signature, i.e., the magnitude directivity as observed on a spherical surface enclosing the source, as described in the publications that are listed at the bottom of this document. Currently, the directivities are not normalized to a given direction. Normalization is necessary if you want to employ recorded signals to drive the directivity as the recorded signal may already contain the directivity in the direction in which the signal was recorded. It is unclear at this stage how to normalize the directivity in the most favorable way for a given application. We will include such method as soon as it is available.
 
-All directivities are causal meaning that they comprise a certain amount of silence in the time-domain representation that corresponds to the propagation delay from the source center to the measurement surface (+ 10 % margin). The radius `R` of the measurement sphere is provided with the data. Most application will not need this, and you are free to remove it. Some applications like Ref. 4 do need it though. 
+All directivities are causal meaning that they comprise a certain amount of silence in the time-domain representation that corresponds to the propagation delay from the source center to the measurement surface (plus a margin of 1 ms). The radius `R` of the measurement sphere is provided with the data. Most application will not need this, and you are free to remove it. Some applications like Ref. 4 do need it though. 
 
 We will extend and update the data continuously.
 
