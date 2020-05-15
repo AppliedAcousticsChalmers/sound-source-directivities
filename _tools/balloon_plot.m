@@ -31,7 +31,7 @@ D = zeros(size(coefficients, 1), size(azimuth, 2));
 
 for l = 0 : order
     for m = -l : l
-        D = D + coefficients(:, l^2+l+m+1) .* repmat(sphharm(l, m, colatitude, azimuth, sph_definition), [length(bins_to_plot) 1]); 
+        D = D + repmat(coefficients(:, l^2+l+m+1), [1 size(azimuth, 2)]) .* repmat(sphharm(l, m, colatitude, azimuth, sph_definition), [size(coefficients, 1) 1]); 
     end
 end
 

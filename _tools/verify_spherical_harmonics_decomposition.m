@@ -7,7 +7,7 @@ D = zeros(size(dataset.coefficients, 1), size(dataset.azimuth, 2));
 
 for l = 0 : dataset.order
     for m = -l : l
-        D = D + dataset.coefficients(:, l^2+l+m+1) .* repmat(sphharm(l, m, dataset.colatitude, dataset.azimuth, sph_definition), [size(dataset.coefficients, 1) 1]); 
+        D = D + repmat(dataset.coefficients(:, l^2+l+m+1), [1 size(dataset.azimuth, 2)]) .* repmat(sphharm(l, m, dataset.colatitude, dataset.azimuth, sph_definition), [size(dataset.coefficients, 1) 1]); 
     end
 end
 
