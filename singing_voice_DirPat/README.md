@@ -14,7 +14,7 @@ Particularly, we used the data from these files:
 
 The calibration data in file `cal64.mat` were applied to all datasets. All directivity representations were computed similar to as it is described in 
 
-> J. Ahrens and S. Bilbao, “Interpolation and Range Extrapolation of Sound Source Directivity Based on a Spherical Wave Propagation Model,” in Proc. of IEEE ICASSP, Barcelona, Spain, May 2020
+> J. Ahrens and S. Bilbao, “Interpolation and Range Extrapolation of Sound Source Directivity Based on a Spherical Wave Propagation Model,” in Proc. of IEEE ICASSP, Barcelona, Spain, May 2020 [ [pdf](http://www.soundfieldsynthesis.org/wp-content/uploads/pubs/AhrensBilbao_ICASSP2020.pdf) ]
 
 and
 
