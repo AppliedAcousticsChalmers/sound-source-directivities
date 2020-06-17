@@ -4,7 +4,7 @@
 
 ![loudspeaker_cube_driver_4_N17](loudspeaker_cube_DirPat/loudspeaker_cube_driver_4_N17.png "loudspeaker_cube_driver_4_N17")
 
-This is a database of complete spherical harmonic representations of the directivities of sound sources. The data are provided as impulse responses that represent the directivity of the given source in a given discrete direction. The Matlab script `compute_spherical_harmonics_model.m` demonstrates how a spherical harmonic representation can be computed from the data.  
+This is a database of complete spherical harmonic representations of the directivities of sound sources. The data are provided as impulse responses that represent the directivity of the given source in a given discrete direction. The Matlab script `compute_spherical_harmonic_representation.m` demonstrates how a spherical harmonic representation can be computed from the data.  
 
 We do not provide spherical harmonic coefficients directly because of the multitude of definitions of spherical harmonics and also of the Discrete Fourier Transform. We rather ask you to select the combination of definitions you would like to use and compute the spherical harmonic coefficients on demand. You may want to add resampling or zero padding and the like to make the data compatible with your intended application. All data are bandlimited to the spherical harmonic order `N` that is specified in the corresponding file name. The conversion between the data at the support points and the spherical harmonic representation is therefore essentially lossless. 
 
