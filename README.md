@@ -2,7 +2,7 @@
 
 # Database of Spherical Harmonic Representations of Sound Source Directivities
 
-![loudspeaker_cube_driver_4_N17](loudspeaker_cube_DirPat/loudspeaker_cube_driver_4_N17.png "loudspeaker_cube_driver_4_N17")
+![loudspeaker_cube_driver_4](loudspeakers/loudspeaker_cube_DirPat/loudspeaker_cube_driver_4.png "loudspeaker_cube_driver_4")
 
 This is a database of complete spherical harmonic representations of the directivities of sound sources. The data are provided as impulse responses that represent the directivity of the given source in a given discrete direction. The Matlab script `compute_spherical_harmonic_representation.m` demonstrates how a spherical harmonic representation can be computed from the data.  
 

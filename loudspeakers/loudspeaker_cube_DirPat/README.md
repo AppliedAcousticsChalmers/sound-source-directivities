@@ -12,20 +12,20 @@ Note that the data are of a rather high order of `N=17`. It might be useful to l
 
 Example plots: 
 
-`loudspeaker_cube_driver_1_N17.mat`
+`loudspeaker_cube_driver_1.mat`
 
-![loudspeaker_cube_driver_1_N17](loudspeaker_cube_driver_1_N17.png "loudspeaker_cube_driver_1_N17")
+![loudspeaker_cube_driver_1](loudspeaker_cube_driver_1.png "loudspeaker_cube_driver_1")
 
 ![loudspeaker_cube_spec](loudspeaker_cube_spec.png "loudspeaker_cube_spec")
 
-`loudspeaker_cube_driver_2_N17.mat`
+`loudspeaker_cube_driver_2.mat`
 
-![loudspeaker_cube_driver_2_N17](loudspeaker_cube_driver_2_N17.png "loudspeaker_cube_driver_2_N17")
+![loudspeaker_cube_driver_2](loudspeaker_cube_driver_2.png "loudspeaker_cube_driver_2")
 
-`loudspeaker_cube_driver_3_N17.mat`
+`loudspeaker_cube_driver_3.mat`
 
-![loudspeaker_cube_driver_3_N17](loudspeaker_cube_driver_3_N17.png "loudspeaker_cube_driver_3_N17")
+![loudspeaker_cube_driver_3](loudspeaker_cube_driver_3.png "loudspeaker_cube_driver_3")
 
-`loudspeaker_cube_driver_4_N17.mat`
+`loudspeaker_cube_driver_4.mat`
 
-![loudspeaker_cube_driver_4_N17](loudspeaker_cube_driver_4_N17.png "loudspeaker_cube_driver_4_N17")
+![loudspeaker_cube_driver_4](loudspeaker_cube_driver_4.png "loudspeaker_cube_driver_4")

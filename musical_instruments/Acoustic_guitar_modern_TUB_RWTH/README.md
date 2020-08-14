@@ -10,9 +10,9 @@ The directivity at frequencies below the fundamental oscillation of the played n
 
 Example plots:
 
-`Clarinet_modern_et_ff_a4_N4.mat`
+`Acoustic_guitar_modern_et_ff_a3.mat`
 
-![Clarinet_modern_et_ff_a4_N4](Clarinet_modern_et_ff_a4_N4.png "Clarinet_modern_et_ff_a4_N4")
+![Acoustic_guitar_modern_et_ff_a3](Acoustic_guitar_modern_et_ff_a3.png "Acoustic_guitar_modern_et_ff_a3")
 
-![Clarinet_modern_et_ff_a4_N4_spec](Clarinet_modern_et_ff_a4_N4_spec.png "Clarinet_modern_et_ff_a4_N4_spec")
+![Acoustic_guitar_modern_et_ff_a3_spec](Acoustic_guitar_modern_et_ff_a3_spec.png "Acoustic_guitar_modern_et_ff_a3_spec")
 

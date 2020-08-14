@@ -14,9 +14,9 @@ The "Oboe modern" playing c5 in ff is featured in this article:
 
 Example plots: 
 
-`Oboe_modern_et_ff_c5_N4.mat`
+`Oboe_modern_et_ff_c5.mat`
 
-![Oboe_modern_et_ff_c5_N4](Oboe_modern_et_ff_c5_N4.png "Oboe_modern_et_ff_c5_N4")
+![Oboe_modern_et_ff_c5](Oboe_modern_et_ff_c5.png "Oboe_modern_et_ff_c5")
 
-![Oboe_modern_et_ff_c5_N4_spec](Oboe_modern_et_ff_c5_N4_spec.png "Oboe_modern_et_ff_c5_N4_spec")
+![Oboe_modern_et_ff_c5_spec](Oboe_modern_et_ff_c5_spec.png "Oboe_modern_et_ff_c5_spec")
 

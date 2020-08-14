@@ -11,9 +11,9 @@ The directivity at frequencies below the fundamental oscillation of the played n
 
 Example plots:
 
-`Trumpet_modern_et_ff_a4_N4.mat`
+`Trumpet_modern_et_ff_a4.mat`
 
-![Trumpet_modern_et_ff_a4_N4](Trumpet_modern_et_ff_a4_N4.png "Trumpet_modern_et_ff_a4_N4")
+![Trumpet_modern_et_ff_a4](Trumpet_modern_et_ff_a4.png "Trumpet_modern_et_ff_a4")
 
-![Trumpet_modern_et_ff_a4_N4_spec](Trumpet_modern_et_ff_a4_N4_spec.png "Trumpet_modern_et_ff_a4_N4_spec")
+![Trumpet_modern_et_ff_a4_spec](Trumpet_modern_et_ff_a4_spec.png "Trumpet_modern_et_ff_a4_spec")
 

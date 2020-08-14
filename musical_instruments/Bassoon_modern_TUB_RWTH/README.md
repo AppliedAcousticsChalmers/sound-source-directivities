@@ -10,9 +10,9 @@ The directivity at frequencies below the fundamental oscillation of the played n
 
 Example plots:
 
-`Bassoon_modern_et_ff_a4_N4.mat`
+`Bassoon_modern_et_ff_a4.mat`
 
-![Bassoon_modern_et_ff_a4_N4](Bassoon_modern_et_ff_a4_N4.png "Bassoon_modern_et_ff_a4_N4")
+![Bassoon_modern_et_ff_a4](Bassoon_modern_et_ff_a4.png "Bassoon_modern_et_ff_a4")
 
-![Bassoon_modern_et_ff_a4_N4_spec](Bassoon_modern_et_ff_a4_N4_spec.png "Bassoon_modern_et_ff_a4_N4_spec")
+![Bassoon_modern_et_ff_a4_spec](Bassoon_modern_et_ff_a4_spec.png "Bassoon_modern_et_ff_a4_spec")
 
