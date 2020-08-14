@@ -20,25 +20,18 @@ addpath('_tools');
 sph_definition = 'real_w_cs'; % see file _tools/sphharm.m for the options
 dft_definition = 'matlab'; % see file _tools/dft.m for the options
 
-%dataset_file_name = 'loudspeaker_cube_DirPat/loudspeaker_cube_driver_1_N17.mat';
-%dataset_file_name = 'loudspeaker_cube_DirPat/loudspeaker_cube_driver_2_N17.mat';
-%dataset_file_name = 'loudspeaker_cube_DirPat/loudspeaker_cube_driver_3_N17.mat';
-%dataset_file_name = 'loudspeaker_cube_DirPat/loudspeaker_cube_driver_4_N17.mat';
+% -- musical instruments --
 
-%dataset_file_name = 'singing_voice_DirPat/singing_voice_a_long_sweep_N12_non-reg.mat';
-%dataset_file_name = 'singing_voice_DirPat/singing_voice_a_long_sweep_N12_reg.mat';
-%dataset_file_name = 'singing_voice_DirPat/singing_voice_a_closed_sweep_N12_non-reg.mat';
-%dataset_file_name = 'singing_voice_DirPat/singing_voice_a_closed_sweep_N12_reg.mat';
-%dataset_file_name = 'singing_voice_DirPat/singing_voice_a_open_sweep_N12_non-reg.mat';
-%dataset_file_name = 'singing_voice_DirPat/singing_voice_a_open_sweep_N12_reg.mat';
-%dataset_file_name = 'singing_voice_DirPat/singing_voice_a_wide_sweep_N12_non-reg.mat';
-dataset_file_name = 'singing_voice_DirPat/singing_voice_a_wide_sweep_N12_reg.mat';
+dataset_file_name = 'musical_instruments/Oboe_modern_TUB_RWTH/Oboe_modern_et_ff_c5.mat';
 
-%dataset_file_name = 'Oboe_modern_TUB_RWTH/Oboe_modern_et_ff_c5_N4.mat';
-%dataset_file_name = 'Acoustic_guitar_modern_TUB_RWTH/Acoustic_guitar_modern_et_ff_a3_N4.mat';
-%dataset_file_name = 'Bassoon_modern_TUB_RWTH/Bassoon_modern_et_ff_a4_N4.mat';
-%dataset_file_name = 'Clarinet_modern_TUB_RWTH/Clarinet_modern_et_ff_a4_N4.mat';
-%dataset_file_name = 'Trumpet_modern_TUB_RWTH/Trumpet_modern_et_ff_a4_N4.mat';
+% -- loudspeakers --
+
+%dataset_file_name = 'loudspeakers/loudspeaker_cube_DirPat/loudspeaker_cube_driver_1.mat';
+
+% -- voice --
+
+%dataset_file_name = 'voice/singing_voice_DirPat/singing_voice_a_long_sweep_reg.mat';
+
 
 % -------------------------------------------------------------------------
 
