@@ -6,6 +6,8 @@ We use the same file name tags like the original database. The instrument as wel
 
 The directivity at frequencies below the fundamental oscillation of the played note is identical the directivity at the fundamental oscillation. Similarly, directivity at frequencies above 10 kHz is identical the directivity at the highest partial oscillation that we found below 10 kHz.
 
+All data are 4th order.
+
 
 
 Example plots:

@@ -10,6 +10,8 @@ The "Oboe modern" playing c5 in ff is featured in this article:
 
 > J. Ahrens and S. Bilbao, “Computation of Spherical Harmonic Representations of Source Directivity Based on the Finite-Distance Signature,” IEEE Transactions on Audio, Speech and Language Processing, 2020 (submitted)
 
+All data are 4th order.
+
 
 
 Example plots: 
