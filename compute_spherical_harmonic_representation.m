@@ -22,7 +22,7 @@ dft_definition = 'matlab'; % see file _tools/dft.m for the options
 
 % -- musical instruments --
 
-%dataset_file_name = 'musical_instruments/Oboe_modern_TUB_RWTH/Oboe_modern_et_ff_c5.mat';
+%dataset_file_name = 'musical_instruments/oboe_modern_TUB_RWTH/Oboe_modern_et_ff_c5.mat';
 
 % -- loudspeakers --
 
