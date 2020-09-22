@@ -17,7 +17,7 @@ All data are 3rd order.
 
 Example plots:
 
-`french_horn_f_a4.mat`
+`french_horn_a4_f.mat`
 
 ![french_horn_a4_f](french_horn_a4_f.png "french_horn_a4_f")
 
