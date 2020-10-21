@@ -1,4 +1,4 @@
-The data are the "Soprano" data from the [database by TUB and RWTH](http://dx.doi.org/10.14279/depositonce-5861.2) presented in this article:
+The data are the "Soprano_m" data from the [database by TUB and RWTH](http://dx.doi.org/10.14279/depositonce-5861.2) presented in this article:
 
 > N. R. Shabtai, G. Behler, M. Vorländer, S. Weinzierl, "Generation and analysis of an acoustic radiation pattern database for forty-one musical instruments," J. Acoust. Soc. Am. 141, (2017)
 
