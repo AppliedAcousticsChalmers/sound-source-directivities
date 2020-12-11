@@ -24,7 +24,7 @@ As of now, all spherical harmonic representations are based on previously publis
 
 # References for the Computation Method
 
-1. J. Ahrens and S. Bilbao, “Computation of Spherical Harmonic Representations of Source Directivity Based on the Finite-Distance Signature,” IEEE Transactions on Audio, Speech and Language Processing, 2020 (submitted)
+1. J. Ahrens and S. Bilbao, “Computation of Spherical Harmonic Representations of Source Directivity Based on the Finite-Distance Signature,” IEEE Transactions on Audio, Speech and Language Processing 29, pp. 83-92, 2021 [ [pdf](https://www.research.ed.ac.uk/portal/en/publications/computation-of-spherical-harmonic-representations-of-source-directivity-based-on-the-finitedistance-signature(30b757fa-4b3f-4e87-a20c-5e89c95c4719).html) ]
 2. J. Ahrens and S. Bilbao, “Interpolation and Range Extrapolation of Sound Source Directivity Based on a Spherical Wave Propagation Model,” in Proc. of IEEE ICASSP, Barcelona, Spain, May 2020 [ [pdf](http://www.soundfieldsynthesis.org/wp-content/uploads/pubs/AhrensBilbao_ICASSP2020.pdf) ]
 3. J. Ahrens and S. Bilbao, “Computation of Spherical Harmonics Based Sound Source Directivity Models from Sparse Measurement Data,” Forum Acusticum, Lyon, France, May 2020.
 4. S. Bilbao, J. Ahrens, and B. Hamilton,”Incorporating Source Directivity in Wave-based Virtual Acoustics: Time-domain Models and Fitting to  Measured Data,” in J. Acoust. Soc. Am. 146 (4), 2019
