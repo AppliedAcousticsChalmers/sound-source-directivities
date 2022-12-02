@@ -8,11 +8,11 @@ if (nargin < 5)
     f_to_plot    = [500 1000 2000 4000]; % in Hz
 end
 
-f_to_plot    = f_to_plot(f_to_plot < fs/2); % sort out
-bins_to_plot = round(f_to_plot/(fs/2) * size(coefficients, 1));
+f_to_plot    = f_to_plot(f_to_plot < fs/2); % avoid frequencies that we don't have
+bins_to_plot = round(f_to_plot/fs * size(coefficients, 1));
 
 % update values
-f_to_plot = bins_to_plot/size(coefficients, 1) * fs/2;
+f_to_plot = bins_to_plot/size(coefficients, 1) * fs;
 
 % remove all unused data
 coefficients = coefficients(bins_to_plot, :);

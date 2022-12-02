@@ -52,42 +52,17 @@ if (strcmp(type, 'complex'))
     
     Ynm = (-1).^m .* sqrt(factor_1 .* factor_2_abs) .* Lnm .* exp(1i .* m .* alpha);
 
-% Complex without Condon-Shortley phase; same as scipy
+% Complex without Condon-Shortley phase cancelation; same as scipy
 elseif (strcmp(type, 'complex_wo_cs'))
     
     Lnm = asslegendre(n, m, cos(beta));
     
     Ynm = sqrt(factor_1 .* factor_2) .* Lnm .* exp(1i .* m .* alpha);
-
-% Real valued spherical harmonics without Condon-Shortley phase
-elseif(strcmp(type, 'real_wo_cs'))
-        
-    if (m ~= 0)
-        factor_1 = 2 * factor_1;
-    end
     
-    if (m < 0)
-        Ynm = sqrt(factor_1 .* factor_2_abs) .* Lnm .* sin(m .* alpha);
-    else % m >= 0
-        Ynm = sqrt(factor_1 .* factor_2_abs) .* Lnm .* cos(m .* alpha);
-    end
-    
-% Real valued spherical harmonics with Condon-Shortley phase; used, for example, by Zotter
-elseif(strcmp(type, 'real_w_cs')) 
-        
-    if (m ~= 0)
-        factor_1 = 2 * factor_1;
-    end
-    
-    if (m < 0)
-        Ynm = (-1).^m .* sqrt(factor_1 .* factor_2_abs) .* Lnm .* sin(m .* alpha);
-    else % m >= 0
-        Ynm = (-1).^m .* sqrt(factor_1 .* factor_2_abs) .* Lnm .* cos(m .* alpha);
-    end
-    
-% Real valued spherical harmonics with Condon-Shortley phase (and with |m| 
+% Real valued spherical harmonics with Condon-Shortley phase cancelation (and with |m| 
 % in the sine!); as defined on https://en.wikipedia.org/wiki/Spherical_harmonics
-elseif(strcmp(type, 'wikipedia'))
+% this is the one that is used in Ambisonics
+elseif(strcmp(type, 'real'))
         
     if (m ~= 0)
         factor_1 = 2 * factor_1;

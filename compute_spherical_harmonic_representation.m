@@ -17,22 +17,44 @@ clear;
 
 addpath('_tools');
 
-sph_definition = 'real_w_cs'; % see file _tools/sphharm.m for the options
+sph_definition = 'real'; % see file _tools/sphharm.m for the options
 dft_definition = 'matlab'; % see file _tools/dft.m for the options
 
 % -- musical instruments --
 
 %dataset_file_name = 'musical_instruments/oboe_modern_TUB_RWTH/Oboe_modern_et_ff_c5.mat';
+%dataset_file_name = 'musical_instruments/trumpet_modern_TUB_RWTH/Trumpet_modern_et_ff_a4.mat';
+%dataset_file_name = 'musical_instruments/violin_modern_TUB_RWTH/Violin_modern_et_ff_g4.mat';
+%dataset_file_name = 'musical_instruments/Acoustic_guitar_modern_TUB_RWTH/Acoustic_guitar_modern_et_ff_a3.mat';
+%dataset_file_name = 'musical_instruments/Clarinet_modern_TUB_RWTH/Clarinet_modern_et_ff_a4.mat';
+%dataset_file_name = 'musical_instruments/Bassoon_modern_TUB_RWTH/Bassoon_modern_et_ff_a4.mat';
+%dataset_file_name = 'musical_instruments/double_bass_AAL/double_bass_a2_f.mat';
+%dataset_file_name = 'musical_instruments/french_horn_AAL/french_horn_a4_f.mat';
+%dataset_file_name = 'musical_instruments/tamtam_AAL/tamtam_ff.mat';
+%dataset_file_name = 'musical_instruments/trumpet_AAL/trumpet_a4_f.mat';
+%dataset_file_name = 'musical_instruments/violin_AAL/violin_a4_f.mat';
+%dataset_file_name = 'voice/singing_voice_TUB_RWTH/Soprano_m_et_ff_a4.mat';
 
 % -- loudspeakers --
 
 %dataset_file_name = 'loudspeakers/loudspeaker_cube_DirPat/loudspeaker_cube_driver_1.mat';
-dataset_file_name = 'loudspeakers/loudspeakers_3D3A/Genelec_8351A.mat';
+%dataset_file_name = 'loudspeakers/loudspeaker_cube_DirPat/loudspeaker_cube_driver_2.mat';
+%dataset_file_name = 'loudspeakers/loudspeaker_cube_DirPat/loudspeaker_cube_driver_3.mat';
+dataset_file_name = 'loudspeakers/loudspeaker_cube_DirPat/loudspeaker_cube_driver_4.mat';
+%dataset_file_name = 'loudspeakers/loudspeakers_3D3A/Genelec_8351A.mat';
 
 % -- voice --
 
-%dataset_file_name = 'voice/singing_voice_DirPat/singing_voice_a_long_sweep_reg.mat';
+%dataset_file_name = 'voice/singing_voice_USYD_2011/singer_1.mat';
 
+%dataset_file_name = 'voice/singing_voice_DirPat/singing_voice_a_closed_sweep_non-reg.mat';
+%dataset_file_name = 'voice/singing_voice_DirPat/singing_voice_a_closed_sweep_reg.mat';
+%dataset_file_name = 'voice/singing_voice_DirPat/singing_voice_a_long_sweep_non-reg.mat';
+%dataset_file_name = 'voice/singing_voice_DirPat/singing_voice_a_long_sweep_reg.mat';
+%dataset_file_name = 'voice/singing_voice_DirPat/singing_voice_a_open_sweep_non-reg.mat';
+%dataset_file_name = 'voice/singing_voice_DirPat/singing_voice_a_open_sweep_reg.mat';
+%dataset_file_name = 'voice/singing_voice_DirPat/singing_voice_a_wide_sweep_non-reg.mat';
+%dataset_file_name = 'voice/singing_voice_DirPat/singing_voice_a_wide_sweep_reg.mat';
 
 % -------------------------------------------------------------------------
 
