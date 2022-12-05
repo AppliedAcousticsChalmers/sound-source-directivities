@@ -11,7 +11,7 @@ for l = 0 : dataset.order
     end
 end
 
-rms_error = rms(D(:) - dataset.tfs(:));
+rms_error = rms(D(:) - dataset.tfs(:)) ./ rms(dataset.tfs(:));
 
 end
 
