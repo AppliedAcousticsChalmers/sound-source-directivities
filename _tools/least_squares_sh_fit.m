@@ -50,7 +50,7 @@ if isempty(reg_type)
     coefficients = pinv(Y_nm) * data;
 
 elseif strcmp(reg_type, 'constant')
-    coefficients = inv(Y_nm' * Y_nm + reg_parameter * eye((order+1)^2)) * Y_nm' * data;
+    coefficients = inv(Y_nm' * Y_nm + reg_parameter * eye((N+1)^2)) * Y_nm' * data;
 
 elseif strcmp(reg_type, 'quadratic')
     coefficients = inv(Y_nm' * Y_nm + reg_parameter * diag(1 + ns .* (ns + 1))) * Y_nm' * data;
