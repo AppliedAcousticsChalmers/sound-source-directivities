@@ -22,6 +22,10 @@ Please cite this repository as follows:
 
 As of now, all spherical harmonic representations are based on previously published data. Please do not forget to cite the original repositories when using the data. References to the original sources are provided with each dataset. 
 
+# Other Directivity Databases that We Have not Included into the Present One 
+
+* https://scholarsarchive.byu.edu/directivity/
+
 # References for the Computation Method
 
 1. J. Ahrens and S. Bilbao, “Computation of Spherical Harmonic Representations of Source Directivity Based on the Finite-Distance Signature,” IEEE Transactions on Audio, Speech and Language Processing 29, pp. 83-92, 2021 [ [pdf](https://www.research.ed.ac.uk/portal/en/publications/computation-of-spherical-harmonic-representations-of-source-directivity-based-on-the-finitedistance-signature(30b757fa-4b3f-4e87-a20c-5e89c95c4719).html) ]
